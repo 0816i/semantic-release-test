@@ -14,12 +14,10 @@ plugins:
   - '@saithodev/semantic-release-backmerge'
   - '@semantic-release/git'
   - '@semantic-release/github'
-  - 'semantic-release-slack-bot'
 
 verifyConditions:
   - '@semantic-release/git'
   - '@semantic-release/github'
-  - 'semantic-release-slack-bot'
   - path: '@saithodev/semantic-release-backmerge'
     branches:
       - from: main
@@ -121,11 +119,11 @@ success:
   #     - pattern: main
   #       notifyOnSuccess: true
   #       notifyOnFail: true
-  # - path: '@saithodev/semantic-release-backmerge'
-  #   branches:
-  #     - from: main
-  #       to: stage
-  #   backmergeStrategy: merge
+  - path: '@saithodev/semantic-release-backmerge'
+    branches:
+      - from: main
+        to: stage
+    backmergeStrategy: merge
   # - path: '@semantic-release/exec'
   #   successCmd: |
   #     echo "NEXT_RELEASE_GIT_HEAD=${nextRelease.gitHead}" >> $GITHUB_OUTPUT
