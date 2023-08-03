@@ -1,3 +1,10 @@
+## [1.0.1-rc.1](https://github.com/0816i/semantic-release-test/compare/v1.0.0...v1.0.1-rc.1) (2023-08-03)
+
+
+### Bug Fixes
+
+* 백머지 전략 ([583cc09](https://github.com/0816i/semantic-release-test/commit/583cc09ad38339edd1500ed7fe72ff1a83ff60db))
+
 ## 1.0.0 (2023-08-03)
 
 
