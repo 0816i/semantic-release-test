@@ -121,7 +121,8 @@ success:
   #       notifyOnFail: true
   - path: '@saithodev/semantic-release-backmerge'
     backmergeBranches:
-      - stage
+      - from: main
+        to: stage
     backmergeStrategy: merge
   # - path: '@semantic-release/exec'
   #   successCmd: |
