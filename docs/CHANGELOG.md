@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/0816i/semantic-release-test/compare/v1.0.1...v1.0.2) (2023-08-03)
+
+
+### Bug Fixes
+
+* **test:** test ([2f12dab](https://github.com/0816i/semantic-release-test/commit/2f12dab7a68b20230f8c66d27d8bda9479a0fd0f))
+
 ## [1.0.1](https://github.com/0816i/semantic-release-test/compare/v1.0.0...v1.0.1) (2023-08-03)
 
 
