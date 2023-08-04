@@ -1,3 +1,10 @@
+## [1.0.4-rc.1](https://github.com/0816i/semantic-release-test/compare/v1.0.3...v1.0.4-rc.1) (2023-08-04)
+
+
+### Build
+
+* **test:** test ([#6](https://github.com/0816i/semantic-release-test/issues/6)) ([f895886](https://github.com/0816i/semantic-release-test/commit/f8958867ce201ce51e9ee1e217b2f90a7dc9cc53))
+
 ## [1.0.3](https://github.com/0816i/semantic-release-test/compare/v1.0.2...v1.0.3) (2023-08-03)
 
 
