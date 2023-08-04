@@ -19,8 +19,7 @@ function delayedHello(
   delay: number = Delays.Medium,
 ): Promise<string> {
   return new Promise((resolve: (value?: string) => void) =>
-    setTimeout(() => resolve(`Hello, ${name} it's chore`), delay),
-  );
+    setTimeout(() => resolve(`Hello, ${name} I'm semantic release and chore`), delay),  );
 }
 
 // Below are examples of using ESLint errors suppression
