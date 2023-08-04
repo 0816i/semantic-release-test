@@ -1,3 +1,32 @@
+## [1.0.3](https://github.com/0816i/semantic-release-test/compare/v1.0.2...v1.0.3) (2023-08-03)
+
+
+### Bug Fixes
+
+* **test:** test ([8c2806a](https://github.com/0816i/semantic-release-test/commit/8c2806a8b5d8c3d8119010a800f1f6999e53cb9b))
+
+## [1.0.2](https://github.com/0816i/semantic-release-test/compare/v1.0.1...v1.0.2) (2023-08-03)
+
+
+### Bug Fixes
+
+* **test:** test ([2f12dab](https://github.com/0816i/semantic-release-test/commit/2f12dab7a68b20230f8c66d27d8bda9479a0fd0f))
+
+## [1.0.1](https://github.com/0816i/semantic-release-test/compare/v1.0.0...v1.0.1) (2023-08-03)
+
+
+### Bug Fixes
+
+* ci fix ([b7b5c2b](https://github.com/0816i/semantic-release-test/commit/b7b5c2be5ac07bdb6906f3486c0a935cfa1f8e95))
+* 백머지 전략 ([583cc09](https://github.com/0816i/semantic-release-test/commit/583cc09ad38339edd1500ed7fe72ff1a83ff60db))
+
+## [1.0.1-rc.2](https://github.com/0816i/semantic-release-test/compare/v1.0.1-rc.1...v1.0.1-rc.2) (2023-08-03)
+
+
+### Bug Fixes
+
+* ci fix ([b7b5c2b](https://github.com/0816i/semantic-release-test/commit/b7b5c2be5ac07bdb6906f3486c0a935cfa1f8e95))
+
 ## [1.0.1-rc.1](https://github.com/0816i/semantic-release-test/compare/v1.0.0...v1.0.1-rc.1) (2023-08-03)
 
 
