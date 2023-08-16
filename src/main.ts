@@ -11,6 +11,7 @@ export enum Delays {
 // add test
 // v2.0.1
 // v2.0.1 release test
+// v3.0.0 rc1
 
 /**
  * Returns a Promise<string> that resolves after a given time.
