@@ -1,3 +1,16 @@
+## [5.0.0-rc.1](https://github.com/0816i/semantic-release-test/compare/v3.0.0-rc.1...v5.0.0-rc.1) (2023-08-16)
+
+
+### Features
+
+* test [skip ci] ([9db112e](https://github.com/0816i/semantic-release-test/commit/9db112ed399e95a21260d01aec99d95e904961a4))
+* test [skip ci] ([265b668](https://github.com/0816i/semantic-release-test/commit/265b668593f9419a04611a4074d28449287dc8d6))
+
+
+### Bug Fixes
+
+* **test:** test ([862b1ec](https://github.com/0816i/semantic-release-test/commit/862b1eca4923988fbf02be4263413e60d95aff58))
+
 ## [4.0.0-rc.1](https://github.com/0816i/semantic-release-test/compare/v3.0.0-rc.1...v4.0.0-rc.1) (2023-08-16)
 
 
