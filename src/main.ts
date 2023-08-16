@@ -10,6 +10,7 @@ export enum Delays {
 // hello-test
 // add test
 // v2.0.1
+// v2.0.1 release test
 
 /**
  * Returns a Promise<string> that resolves after a given time.
