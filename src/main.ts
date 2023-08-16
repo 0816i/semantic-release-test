@@ -17,6 +17,8 @@ export enum Delays {
 // add
 // test2
 // rc2
+
+//5.0.0
 /**
  * Returns a Promise<string> that resolves after a given time.
  *
