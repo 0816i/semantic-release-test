@@ -1,3 +1,10 @@
+## [5.0.1-rc.1](https://github.com/0816i/semantic-release-test/compare/v5.0.0...v5.0.1-rc.1) (2023-08-16)
+
+
+### Bug Fixes
+
+* **test:** test ([9ffc496](https://github.com/0816i/semantic-release-test/commit/9ffc4968d6bd8f668322d88e461403d4762b22fa))
+
 ## [4.0.0-rc.1](https://github.com/0816i/semantic-release-test/compare/v3.0.0-rc.1...v4.0.0-rc.1) (2023-08-16)
 
 
