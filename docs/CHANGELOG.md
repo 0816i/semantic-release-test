@@ -1,3 +1,10 @@
+## [2.1.0-rc.1](https://github.com/0816i/semantic-release-test/compare/v2.0.1...v2.1.0-rc.1) (2023-08-16)
+
+
+### Features
+
+* **test:** test ([564a372](https://github.com/0816i/semantic-release-test/commit/564a3724c5b74ddbe8008d8595f5697bd55072a3))
+
 ## [2.0.0-rc.1](https://github.com/0816i/semantic-release-test/compare/v1.0.4-rc.1...v2.0.0-rc.1) (2023-08-16)
 
 
