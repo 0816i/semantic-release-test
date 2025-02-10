@@ -7,6 +7,18 @@ export enum Delays {
   Long = 5000,
 }
 
+// hello-test
+// add test
+// v2.0.1
+// v2.0.1 release test
+// v3.0.0 rc1
+// v4.0.0 rc2
+// v5.0.0 rc2
+// add
+// test2
+// rc2
+
+//5.0.0
 /**
  * Returns a Promise<string> that resolves after a given time.
  *
@@ -19,7 +31,10 @@ function delayedHello(
   delay: number = Delays.Medium,
 ): Promise<string> {
   return new Promise((resolve: (value?: string) => void) =>
-    setTimeout(() => resolve(`Hello, ${name}`), delay),
+    setTimeout(
+      () => resolve(`Hello, ${name} I'm semantic release and chore`),
+      delay,
+    ),
   );
 }
 
