@@ -14,7 +14,6 @@ plugins:
   - '@saithodev/semantic-release-backmerge'
   - '@semantic-release/git'
   - '@semantic-release/github'
-
 verifyConditions:
   - '@semantic-release/git'
   - '@semantic-release/github'
@@ -23,7 +22,6 @@ verifyConditions:
       - from: main
         to: stage
     backmergeStrategy: merge
-
 analyzeCommits:
   - path: '@semantic-release/commit-analyzer'
     releaseRules:
@@ -46,7 +44,6 @@ analyzeCommits:
       noteKeywords:
         - BREAKING CHANGE
         - BREAKING CHANGES
-
 generateNotes:
   - path: '@semantic-release/release-notes-generator'
     writerOpts:
@@ -67,8 +64,6 @@ generateNotes:
         # Uninmportant fix (CI testing, etc)
         - type: 'fix'
           section: 'Bug Fixes'
-        - type: 'revert'
-          section: 'Reverts'
         - type: perf
           section: Performance
         - type: refactor
@@ -77,7 +72,8 @@ generateNotes:
           section: Build
         - type: ci
           section: CI
-
+        - type: revert
+          section: Reverts
 prepare:
   - path: '@semantic-release/exec'
     prepareCmd: |
@@ -94,21 +90,20 @@ prepare:
   - path: '@semantic-release/exec'
     prepareCmd: |
       echo "prepared"
-
 publish:
   - path: '@semantic-release/github'
-  # - path: '@semantic-release/exec'
-  #   publishCmd: |
-  #     docker buildx build \
-  #       --build-arg RELEASE_VERSION=${nextRelease.version} \
-  #       --build-arg RELEASE_GIT_HEAD=${nextRelease.gitHead} \
-  #       --build-arg NPM_TOKEN=$NPM_TOKEN \
-  #       --tag $IMAGE_NAME:${nextRelease.gitHead} \
-  #       --tag $IMAGE_NAME:${nextRelease.version} \
-  #       -f Dockerfile.Build \
-  #       --platform linux/amd64 \
-  #       --push \
-  #       .
+# - path: '@semantic-release/exec'
+#   publishCmd: |
+#     docker buildx build \
+#       --build-arg RELEASE_VERSION=${nextRelease.version} \
+#       --build-arg RELEASE_GIT_HEAD=${nextRelease.gitHead} \
+#       --build-arg NPM_TOKEN=$NPM_TOKEN \
+#       --tag $IMAGE_NAME:${nextRelease.gitHead} \
+#       --tag $IMAGE_NAME:${nextRelease.version} \
+#       -f Dockerfile.Build \
+#       --platform linux/amd64 \
+#       --push \
+#       .
 
 success:
   - path: '@semantic-release/github'
@@ -128,22 +123,22 @@ success:
       - from: main
         to: stage
     backmergeStrategy: merge
-  # - path: '@semantic-release/exec'
-  #   successCmd: |
-  #     echo "NEXT_RELEASE_GIT_HEAD=${nextRelease.gitHead}" >> $GITHUB_OUTPUT
-  #     echo "NEXT_RELEASE_VERSION=${nextRelease.version}" >> $GITHUB_OUTPUT
-  #     echo "RELEASABLE=true" >> $GITHUB_OUTPUT
+# - path: '@semantic-release/exec'
+#   successCmd: |
+#     echo "NEXT_RELEASE_GIT_HEAD=${nextRelease.gitHead}" >> $GITHUB_OUTPUT
+#     echo "NEXT_RELEASE_VERSION=${nextRelease.version}" >> $GITHUB_OUTPUT
+#     echo "RELEASABLE=true" >> $GITHUB_OUTPUT
 
 fail:
   - path: '@semantic-release/github'
-  # - path: 'semantic-release-slack-bot'
-  #   notifyOnSuccess: false
-  #   notifyOnFail: true
-  #   markdownReleaseNotes: true
-  #   branchesConfig:
-  #     - pattern: stage
-  #       notifyOnSuccess: true
-  #       notifyOnFail: true
-  #     - pattern: main
-  #       notifyOnSuccess: true
-  #       notifyOnFail: true
+# - path: 'semantic-release-slack-bot'
+#   notifyOnSuccess: false
+#   notifyOnFail: true
+#   markdownReleaseNotes: true
+#   branchesConfig:
+#     - pattern: stage
+#       notifyOnSuccess: true
+#       notifyOnFail: true
+#     - pattern: main
+#       notifyOnSuccess: true
+#       notifyOnFail: true
