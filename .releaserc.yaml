@@ -40,6 +40,8 @@ analyzeCommits:
       - type: docs
         scope: README
         release: patch
+      - type: revert
+        release: patch
     parserOpts:
       noteKeywords:
         - BREAKING CHANGE
@@ -65,6 +67,8 @@ generateNotes:
         # Uninmportant fix (CI testing, etc)
         - type: 'fix'
           section: 'Bug Fixes'
+        - type: 'revert'
+          section: 'Reverts'
         - type: perf
           section: Performance
         - type: refactor
