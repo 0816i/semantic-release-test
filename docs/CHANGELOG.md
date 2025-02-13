@@ -1,3 +1,10 @@
+## [5.0.2-rc.1](https://github.com/0816i/semantic-release-test/compare/v5.0.1...v5.0.2-rc.1) (2025-02-13)
+
+
+### Reverts
+
+* 리버트 테스트 ([3083774](https://github.com/0816i/semantic-release-test/commit/3083774820232d971ec0e3e94d6cba2a36f56d59))
+
 ## [5.0.1](https://github.com/0816i/semantic-release-test/compare/v5.0.0...v5.0.1) (2025-02-10)
 
 
