@@ -1,3 +1,10 @@
+## [5.0.2-rc.2](https://github.com/0816i/semantic-release-test/compare/v5.0.2-rc.1...v5.0.2-rc.2) (2025-02-13)
+
+
+### Reverts
+
+* test: ([0835541](https://github.com/0816i/semantic-release-test/commit/083554173db29ee2628ae59db4008d8e38f23881))
+
 ## [5.0.2-rc.1](https://github.com/0816i/semantic-release-test/compare/v5.0.1...v5.0.2-rc.1) (2025-02-13)
 
 
