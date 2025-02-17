@@ -1,3 +1,8 @@
+## 5.1.0-rc.1 (2025-02-17)
+
+* feat: release test ([41a1ae1](https://github.com/0816i/semantic-release-test/commit/41a1ae1))
+* revert: test ([c2c8008](https://github.com/0816i/semantic-release-test/commit/c2c8008))
+
 ## [5.0.2-rc.3](https://github.com/0816i/semantic-release-test/compare/v5.0.2-rc.2...v5.0.2-rc.3) (2025-02-17)
 
 
