@@ -1,3 +1,7 @@
+## 5.1.0-rc.4 (2025-02-17)
+
+* revert: revert ([6d3a85a](https://github.com/0816i/semantic-release-test/commit/6d3a85a))
+
 ## 5.1.0-rc.3 (2025-02-17)
 
 * fix: test ([5e42b58](https://github.com/0816i/semantic-release-test/commit/5e42b58))
