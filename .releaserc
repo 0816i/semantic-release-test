@@ -23,15 +23,7 @@
     [
       "@semantic-release/release-notes-generator",
       {
-        "preset": "conventionalcommits",
-        "presetConfig": {
-          "types": [
-            {
-              "type": "revert",
-              "section": "Reverts"
-            }
-          ]
-        }
+        "preset": "conventionalcommits"
       }
     ],
     [
