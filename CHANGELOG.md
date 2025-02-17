@@ -1,5 +1,11 @@
 ## 5.1.0-rc.4 (2025-02-17)
 
+* feat: test ([e90b7cd](https://github.com/0816i/semantic-release-test/commit/e90b7cd))
+* chore(release): 5.1.0-rc.4 [manually skip] ([d124294](https://github.com/0816i/semantic-release-test/commit/d124294))
+* revert: revert ([5cc7a07](https://github.com/0816i/semantic-release-test/commit/5cc7a07))
+
+## 5.1.0-rc.4 (2025-02-17)
+
 * revert: revert ([5cc7a07](https://github.com/0816i/semantic-release-test/commit/5cc7a07))
 
 ## 5.1.0-rc.4 (2025-02-17)
