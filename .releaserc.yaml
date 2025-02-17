@@ -24,56 +24,10 @@ verifyConditions:
     backmergeStrategy: merge
 analyzeCommits:
   - path: '@semantic-release/commit-analyzer'
-    releaseRules:
-      - type: refactor
-        release: patch
-      - type: build
-        release: patch
-      - type: ci
-        release: patch
-      - type: hotfix
-        release: patch
-      - type: perf
-        release: patch
-      - type: docs
-        scope: README
-        release: patch
-      - type: revert
-        release: patch
-    parserOpts:
-      noteKeywords:
-        - BREAKING CHANGE
-        - BREAKING CHANGES
+    preset: 'conventionalcommits'
 generateNotes:
   - path: '@semantic-release/release-notes-generator'
-    writerOpts:
-      groupBy: 'type'
-      commitGroupsSort:
-        - 'feat'
-        - 'perf'
-        - 'fix'
-        - 'hotfix'
-      commitsSort: 'header'
-    presetConfig:
-      types:
-        - type: 'feat'
-          section: 'Features'
-        # Tracked bug fix with a hotfix branch
-        - type: 'hotfix'
-          section: 'Bug Fixes'
-        # Uninmportant fix (CI testing, etc)
-        - type: 'fix'
-          section: 'Bug Fixes'
-        - type: perf
-          section: Performance
-        - type: refactor
-          section: Refactoring
-        - type: build
-          section: Build
-        - type: ci
-          section: CI
-        - type: revert
-          section: Reverts
+    preset: 'conventionalcommits'
 prepare:
   - path: '@semantic-release/exec'
     prepareCmd: |
